@@ -4,7 +4,7 @@ namespace Fibonacci
 {
     public class Fibonacci
     {
-        public static long CalculateFibonacciRecursive(int n)
+        public static long CalculateFibonacci(int n)
         {
             if (n == 0) return 0;
             if (n <= 2)
@@ -13,7 +13,7 @@ namespace Fibonacci
             }
             else
             {
-                return CalculateFibonacciRecursive(n - 1) + CalculateFibonacciRecursive(n - 2);
+                return CalculateFibonacci(n - 1) + CalculateFibonacci(n - 2);
             }
         }
 
@@ -28,7 +28,7 @@ namespace Fibonacci
             int n = int.Parse(args[0]);
             for(int i = 0; i <= n; i++)
             {
-                Console.WriteLine(i + ": " + CalculateFibonacciRecursive(i));
+                Console.WriteLine(i + ": " + CalculateFibonacci(i));
             }
         }
     }
