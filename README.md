@@ -8,3 +8,4 @@ Contribute with Fibonacci's algorithm in a new language. So far we have:
 * Python [src/fib.py](src/fib.py)
 * JavaScript [src/Fibonacci-JavaScript.js](src/Fibonacci-JavaScript.js)
 * C# [src/Fibonacci.cs](src/Fibonacci.cs)
+* C++ [src/fibonacci.cpp](src/fibonacci.cpp)
