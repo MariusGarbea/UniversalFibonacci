@@ -14,3 +14,11 @@ function printFib(limitNo, elementID) {
         document.getElementById(elementID).innerHTML += i + ": " + fibonacci(i) + "<br\/>";
     }
 }
+
+var recursive = function(n) {
+    if(n <= 2) {
+        return 1;
+    } else {
+        return this.recursive(n - 1) + this.recursive(n - 2);
+    }
+};
