@@ -11,6 +11,7 @@ Contribute with Fibonacci's algorithm in a new language. So far we have:
 * Java [src/Fibonacci.java](src/Fibonacci.java)
 * JavaScript [src/Fibonacci-JavaScript.js](src/Fibonacci-JavaScript.js)
 * Pascal [src/fibonacci.pas](src/fibonacci.pas)
+* Perl6 [src/fibonacci.p6](src/fibonacci.p6)
 * Python [src/fib.py](src/fib.py)
 * Ruby [src/fibonacci.rb](src/fibonacci.rb)
 * TeX [src/fibonacci.tex](src/fibonacci.tex)
